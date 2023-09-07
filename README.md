@@ -1,0 +1,1 @@
+# nurkhanamandyk.github.io
