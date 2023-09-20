@@ -111,7 +111,15 @@ embed {
 	width: 1230px;
 	height: 615px;
 }
-.oneof{
-   font-family: 'Times New Roman', Times, serif;
-   font-size: large;
+.bestcity{
+	color: aliceblue;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+}
+.bestcity{
+	margin-top: 180px;
+	font-size: 900%;
+	margin-right: 800px;
+	opacity: 60%;
 }
