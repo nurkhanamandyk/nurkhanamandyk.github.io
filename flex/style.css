@@ -1,0 +1,124 @@
+body {
+   margin: 0px;
+   background-color: whitesmoke;
+   font-family: 'Rock Salt', cursive;
+   text-align: center;
+ }
+ 
+ .secondary-background {
+   background-color: snow;
+ }
+ 
+ .tagline {
+   font-family: 'Quicksand', sans-serif;
+   color: lightslategrey;
+   line-height: 125px;
+ }
+ 
+ /* Header */
+ h1 {
+   margin: 0;
+   background-color: steelblue;
+   line-height: 100px;
+   color: khaki;
+ }
+ 
+ h2 {
+   margin: 10px;
+ }
+ 
+ /* App Container */
+ .container {
+   border: 2px solid snow;
+ }
+ 
+ /* To Do Section */
+ .week {color:rgb(59, 59, 59);
+ }
+ .row {
+   min-height: 200px;
+   display: flex;
+ }
+ 
+ .square {
+   width: 125px;
+   height: 125px;
+   padding: 10px;
+ }
+ 
+ .day.square {
+   background-color: steelblue;
+   border: 1px solid white;
+ }
+ 
+ .task.square {
+   background-color: khaki;
+   border: 1px solid white;
+ }
+ 
+ .task p {
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 700;
+   font-size: 12px;
+ }
+ 
+ /* Reminders */
+ .reminders {
+   background-color: khaki;
+ }
+ 
+ .reminders h3 {
+   width: 100%;
+   margin: 10px;
+   color: black;
+   line-height: 90px;
+   font-size: 24px;
+ }
+ 
+ /* Footer */
+ footer {
+   font-size: 24px;
+ }
+ /* 1. Add display property to create flex and inline-flex containers */
+.container, .square {
+   display: flex;
+ }
+ 
+ .week, .reminders {
+   display: inline-flex;
+ }
+ 
+ /* 2. Set flex-grow property for elements inside inline-flex containers */
+ .week {
+   flex-grow: 3;
+ }
+ 
+ .reminders {
+   flex-grow: 2;
+ }
+ 
+ /* 3. Set flex-direction to column for elements with class 'week' */
+ .week {
+   flex-direction: column;
+ }
+ 
+ /* 4. Set flex-wrap property to move items to the next row for class 'row' */
+ .row {
+   flex-wrap: wrap;
+ }
+ 
+ /* 5. Set justify-content to add space around items for class 'row' */
+ .row {
+   justify-content: space-around;
+ }
+ 
+ /* 5. Set justify-content to center items for class 'square' */
+ .square {
+   justify-content: center;
+ }
+ 
+ /* 6. Set align-items property to center items vertically for class 'row' and 'square' */
+ .row, .square {
+   align-items: center;
+ }
+ 
